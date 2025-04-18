@@ -32,9 +32,10 @@ const [playState,setPlayState]= useState(false)
         <Testimonials/>
         <Title subTitle="Contact Us" title= "Get in Touch"/>
         <Contact/>
+        <VideoPlayer playState={playState} setPlayState={setPlayState}/>
         <Footer/>
         </div>
-      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+     
     </div>
   )
 }
